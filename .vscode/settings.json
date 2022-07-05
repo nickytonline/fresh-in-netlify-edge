@@ -4,5 +4,10 @@
     "netlify/edge-functions"
   ],
   "deno.unstable": true,
-  "deno.importMap": ".netlify/edge-functions-import-map.json"
+  "deno.lint": true,
+  "deno.suggest.autoImports": true,
+  "deno.importMap": ".netlify/edge-functions-import-map.json",
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
 }
